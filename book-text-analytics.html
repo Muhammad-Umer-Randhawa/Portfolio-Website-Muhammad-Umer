@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Text Analytics Engine – Muhammad Umer Tarique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav class="site-nav">
+        <a href="index.html" class="logo">Muhammad Umer Tarique</a>
+        <ul class="nav-links">
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="project-hero">
+      <div class="container">
+        <h1>Book Text Analytics Engine</h1>
+        <p class="overview">A Java command-line tool that takes a plain-text book file and pulls it apart: word counts, frequency rankings, neighbor analysis, prefix search, and page-and-line lookups. I built it to practice data structures and algorithms, implementing tries, AVL trees, and a custom hash table from scratch instead of using library collections. It was a hard and good challenge.</p>
+      </div>
+    </section>
+
+    <section class="project-screenshot">
+      <div class="container">
+        <figure>
+          <video autoplay loop muted playsinline poster="screen recs/book-text-analytics.mp4">
+            <source src="screen recs/book-text-analytics.mp4" type="video/mp4">
+          </video>
+          <figcaption>Replace with actual screen recording.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="container--narrow">
+
+      <section class="project-section">
+        <h2>Features</h2>
+        <ul class="features">
+          <li>Total and unique word counts</li>
+          <li>Most frequent words ranking</li>
+          <li>Neighbor word analysis (words that appear next to a given word)</li>
+          <li>Prefix search powered by a hand-built Trie</li>
+          <li>Word lookup by page and line range using an inverted index backed by an AVL tree</li>
+          <li>Custom hash table implementation</li>
+          <li>Benchmarker comparing naive vs. optimized approaches</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h2>Built with</h2>
+        <div class="tags">
+          <span class="tag">Java</span>
+          <span class="tag">Trie</span>
+          <span class="tag">AVL Tree</span>
+          <span class="tag">Hash Table</span>
+          <span class="tag">Inverted Index</span>
+        </div>
+      </section>
+
+      <section class="project-section">
+        <h2>What I'm proud of</h2>
+        <p class="reflection">Implementing every data structure from scratch—no java.util shortcuts—was the whole point, and also the hardest part. Getting the AVL rotations right for the inverted index took several tries, and the benchmarker showed exactly how much difference the optimized structures make compared to brute-force searches. It made the theory feel real.</p>
+      </section>
+
+      <div class="project-actions">
+        <a href="https://github.com/yourusername/book-text-analytics" target="_blank" rel="noopener" class="btn">View on GitHub →</a>
+        <a href="index.html" class="btn btn--ghost">← Back to home</a>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span>© 2026 Muhammad Umer Tarique</span>
+        <span>Software Engineering · MUET Jamshoro</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
